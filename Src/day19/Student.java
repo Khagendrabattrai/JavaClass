@@ -1,6 +1,6 @@
 package day19;
 
-// construction overloading
+//construction overloading
 public class Student {
 	String studentName;
 	int rollNumber;
@@ -24,9 +24,9 @@ public Student() {
 		public  void  displayInfo() {
 			System.out.println("Student name "+studentName);
 			System.out.println("Roll number is "+rollNumber);
-		
+
 		}
-	
+
 
 	public static void main(String[] args) {
 		Student student1= new Student("Khagendra"); 
@@ -37,4 +37,7 @@ public Student() {
 		student3 .displayInfo();
 	}
 
-}
+
+
+	}
+
